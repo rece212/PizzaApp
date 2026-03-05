@@ -31,7 +31,7 @@ namespace TestPizza
         [TestMethod]
         public void TestBaconPizza()
         {
-            String expect = "The yellow stuff ";
+            String expect = "The yellow stuff";
             String actual = baconObject.Cheese;
             Assert.AreEqual(expect, actual);
         }
